@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "storycap": "storycap http://localhost:6006 --serverCmd \"npx serve -l 6006 storybook-static\""
   },
   "dependencies": {
     "@types/node": "20.5.0",
@@ -34,6 +35,11 @@
     "@storybook/react": "^7.3.0",
     "@storybook/testing-library": "^0.2.0",
     "eslint-plugin-storybook": "^0.6.13",
-    "storybook": "^7.3.0"
+    "reg-keygen-git-hash-plugin": "^0.12.2",
+    "reg-notify-github-plugin": "^0.12.2",
+    "reg-publish-s3-plugin": "^0.12.2",
+    "reg-suit": "^0.12.2",
+    "storybook": "^7.3.0",
+    "storycap": "^4.2.0"
   }
 }

@@ -1,4 +1,5 @@
-import type { Preview } from "@storybook/react";
+import { withScreenshot } from "storycap"
+import type { Preview } from "@storybook/react"
 
 const preview: Preview = {
   parameters: {
@@ -10,6 +11,8 @@ const preview: Preview = {
       },
     },
   },
-};
+}
 
-export default preview;
+export const decorators = [withScreenshot]
+
+export default preview
