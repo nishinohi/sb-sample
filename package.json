@@ -9,7 +9,8 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "storycap": "storycap http://localhost:6006 --serverCmd \"npx serve -l 6006 storybook-static\""
+    "storycap": "storycap http://localhost:6006 --serverCmd \"npx serve -l 6006 storybook-static\"",
+    "vrt:run": "reg-suit run"
   },
   "dependencies": {
     "@types/node": "20.5.0",
